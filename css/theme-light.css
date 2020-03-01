@@ -217,10 +217,8 @@ section {
 }
 
 .welcome-area {
-  margin-left: auto;
-  margin-right: auto;
 	height: 100%;
-  width: 100%;
+  width: auto;
 	background: url(../images/IMG_0578.jpg);
 	background-size: cover;
   display: block;
