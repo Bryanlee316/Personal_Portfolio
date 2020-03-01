@@ -217,8 +217,8 @@ section {
 }
 
 .welcome-area {
-  background-size: cover;
-  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
 	background: url(../images/IMG_0578.jpg);
 	background-size: cover;
   display: block;
