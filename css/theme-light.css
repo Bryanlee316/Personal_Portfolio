@@ -510,6 +510,112 @@ section {
 	box-shadow: none;
 }
 
+/*
+* ----------------------------------------------------------------------------------------
+* 05.Values CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+#value {
+	padding: 90px 0 70px 0;
+}
+
+ul.work {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+ul.work li {
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 8px;
+	font-weight: 400;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+ul.work li.active, ul.work li:hover {
+	color: #13141d;
+}
+
+#value,
+.value-grid {
+	overflow: hidden;
+	text-align: center;
+}
+
+.value-grid .mix {
+	display: none;
+}
+
+.value-grid .item {
+	position: relative;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.value-grid .item:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.value-grid .item:hover .item-hover {
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.value-grid .item-hover {
+	display: block;
+	position: absolute;
+	background: #0cbb58;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+}
+
+.value-grid .item h5 {
+	text-transform: uppercase;
+	margin: 0 0 15px 0;
+}
+
+.value-grid .item a{
+	color: #fff;
+}
+
+.value-grid .item-hover .icons a {
+	padding: 0 6px;
+	background: #1b1c29;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	display: inline-block;
+	font-size: 15px;
+	margin-right: 10px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.value-grid .item-hover .icons a:hover,
+.value-grid .item-hover .icons:focus a:hover {
+	color: #1b1c29;
+	background: #fff;
+}
+
+.value-grid .item-hover .icons:focus a {
+	color: #fff;
+	background: #1b1c29;
+}
+
+.valuepicture {
+  height: 200px;
+  width: 300px;
+}
 
 /*
 * ----------------------------------------------------------------------------------------
