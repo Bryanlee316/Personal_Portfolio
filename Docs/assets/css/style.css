@@ -1,0 +1,135 @@
+body {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	color: #76868e;
+	letter-spacing: 0.5px;
+	background: #F2F2F2;
+}
+
+a {
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+a:focus {
+	text-decoration: initial;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #2A4451;
+}
+
+p {
+	margin: 0 0 24px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+#doc-nav {
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: #0e112c;
+	padding-top: 2%;
+}
+
+#doc-content {
+	margin-left: 300px;
+	max-width: 1000px;
+	padding: 4%;
+}
+
+.logo {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.nav li a {
+	color: #fff;
+}
+
+.nav > li > a:focus {
+	background: none;
+}
+
+.nav > li > a:hover, .nav .active {
+	background: #1a1d3b;
+}
+
+.nav .sub-nav {
+	display: none;
+}
+
+
+.nav .sub-nav > li > a:hover {
+	color: #ababab;
+}
+
+.nav .sub-nav .active a {
+	color: #0cbb58;
+	text-decoration: underline;
+}
+
+
+.nav > li.active .sub-nav {
+	display: block;
+}
+
+.nav .sub-nav li a {
+	padding-left: 40px;
+}
+
+.sub-nav li a:before {
+	content: '- ';
+}
+
+#welcome {
+	padding: 20px;
+	background: #d1e2e9;
+	text-align: center;
+}
+
+#doc-content ul {
+	list-style: none;
+}
+
+ul.folders {
+	margin-bottom: 30px;
+}
+
+ul.folders li {
+	color: #415B68;
+}
+
+ul.folders ul {
+    border-left: 1px solid #ddd;
+    margin-left: 8px;
+    padding-left: 30px;
+}
+
+.button {
+	color: #fff;
+	display: inline-block;
+	background: #31708f;
+	padding: 12px 20px;
+	text-transform: uppercase;
+	margin: 0 6px;
+}
+
+.button:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #4a90b3;
+}
